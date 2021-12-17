@@ -27,8 +27,8 @@ function format() {
     var text2 = tag.value.replace(' (', ': ');
     text2 = text2.replace(') / ',' ');
     text2 = text2.replace(' (', ': ');
-    text2 = text2.replace(') /', '.\n\n');
-    text2 = text2.replace('CLIENTE (', '');
+    text2 = text2.replace(') ', '.\n\n');
+    text2 = text2.replace('/ Cliente (', '');
     text2 = text2.replace(')', '');
     text2 = text2.replace('.', concatenado().toUpperCase());
 
